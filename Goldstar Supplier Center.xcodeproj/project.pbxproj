@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD298F0D1D42B98C006DB396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD298F0C1D42B98C006DB396 /* AppDelegate.swift */; };
+		CD298F0F1D42B98C006DB396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD298F0E1D42B98C006DB396 /* ViewController.swift */; };
+		CD298F121D42B98C006DB396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD298F101D42B98C006DB396 /* Main.storyboard */; };
+		CD298F141D42B98C006DB396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD298F131D42B98C006DB396 /* Assets.xcassets */; };
+		CD298F171D42B98C006DB396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD298F151D42B98C006DB396 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD298F091D42B98C006DB396 /* Goldstar Supplier Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goldstar Supplier Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD298F0C1D42B98C006DB396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD298F0E1D42B98C006DB396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD298F111D42B98C006DB396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD298F131D42B98C006DB396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD298F161D42B98C006DB396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD298F181D42B98C006DB396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD298F061D42B98C006DB396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD298F001D42B98C006DB396 = {
+			isa = PBXGroup;
+			children = (
+				CD298F0B1D42B98C006DB396 /* Goldstar Supplier Center */,
+				CD298F0A1D42B98C006DB396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD298F0A1D42B98C006DB396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD298F091D42B98C006DB396 /* Goldstar Supplier Center.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD298F0B1D42B98C006DB396 /* Goldstar Supplier Center */ = {
+			isa = PBXGroup;
+			children = (
+				CD298F0C1D42B98C006DB396 /* AppDelegate.swift */,
+				CD298F0E1D42B98C006DB396 /* ViewController.swift */,
+				CD298F101D42B98C006DB396 /* Main.storyboard */,
+				CD298F131D42B98C006DB396 /* Assets.xcassets */,
+				CD298F151D42B98C006DB396 /* LaunchScreen.storyboard */,
+				CD298F181D42B98C006DB396 /* Info.plist */,
+			);
+			path = "Goldstar Supplier Center";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD298F081D42B98C006DB396 /* Goldstar Supplier Center */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD298F1B1D42B98C006DB396 /* Build configuration list for PBXNativeTarget "Goldstar Supplier Center" */;
+			buildPhases = (
+				CD298F051D42B98C006DB396 /* Sources */,
+				CD298F061D42B98C006DB396 /* Frameworks */,
+				CD298F071D42B98C006DB396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Goldstar Supplier Center";
+			productName = "Goldstar Supplier Center";
+			productReference = CD298F091D42B98C006DB396 /* Goldstar Supplier Center.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD298F011D42B98C006DB396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sean Sellars";
+				TargetAttributes = {
+					CD298F081D42B98C006DB396 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TKS3SYZEQ2;
+					};
+				};
+			};
+			buildConfigurationList = CD298F041D42B98C006DB396 /* Build configuration list for PBXProject "Goldstar Supplier Center" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD298F001D42B98C006DB396;
+			productRefGroup = CD298F0A1D42B98C006DB396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD298F081D42B98C006DB396 /* Goldstar Supplier Center */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD298F071D42B98C006DB396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD298F171D42B98C006DB396 /* LaunchScreen.storyboard in Resources */,
+				CD298F141D42B98C006DB396 /* Assets.xcassets in Resources */,
+				CD298F121D42B98C006DB396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD298F051D42B98C006DB396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD298F0F1D42B98C006DB396 /* ViewController.swift in Sources */,
+				CD298F0D1D42B98C006DB396 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD298F101D42B98C006DB396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD298F111D42B98C006DB396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD298F151D42B98C006DB396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD298F161D42B98C006DB396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD298F191D42B98C006DB396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD298F1A1D42B98C006DB396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD298F1C1D42B98C006DB396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Goldstar Supplier Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testApp.Goldstar-Supplier-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD298F1D1D42B98C006DB396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Goldstar Supplier Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testApp.Goldstar-Supplier-Center";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD298F041D42B98C006DB396 /* Build configuration list for PBXProject "Goldstar Supplier Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD298F191D42B98C006DB396 /* Debug */,
+				CD298F1A1D42B98C006DB396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD298F1B1D42B98C006DB396 /* Build configuration list for PBXNativeTarget "Goldstar Supplier Center" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD298F1C1D42B98C006DB396 /* Debug */,
+				CD298F1D1D42B98C006DB396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD298F011D42B98C006DB396 /* Project object */;
+}
