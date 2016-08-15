@@ -12,6 +12,7 @@
 		CD298F121D42B98C006DB396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD298F101D42B98C006DB396 /* Main.storyboard */; };
 		CD298F141D42B98C006DB396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD298F131D42B98C006DB396 /* Assets.xcassets */; };
 		CD298F171D42B98C006DB396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD298F151D42B98C006DB396 /* LaunchScreen.storyboard */; };
+		CDB2F1D81D61923B00848591 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2F1D71D61923B00848591 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CD298F131D42B98C006DB396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD298F161D42B98C006DB396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD298F181D42B98C006DB396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB2F1D71D61923B00848591 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CD298F0C1D42B98C006DB396 /* AppDelegate.swift */,
 				CD298F0E1D42B98C006DB396 /* ViewController.swift */,
 				CD298F101D42B98C006DB396 /* Main.storyboard */,
+				CDB2F1D71D61923B00848591 /* LoginViewController.swift */,
 				CD298F131D42B98C006DB396 /* Assets.xcassets */,
 				CD298F151D42B98C006DB396 /* LaunchScreen.storyboard */,
 				CD298F181D42B98C006DB396 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB2F1D81D61923B00848591 /* LoginViewController.swift in Sources */,
 				CD298F0F1D42B98C006DB396 /* ViewController.swift in Sources */,
 				CD298F0D1D42B98C006DB396 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CD298F1D1D42B98C006DB396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
